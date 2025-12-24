@@ -1,0 +1,8 @@
+﻿# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# @global-owner1 and @global-owner2 will be requested for
+# review when someone opens a pull request.
+
+# The members of this group will be requested for review when someone opens a pull request. One of them, as well as
+# another developer will need to review and approve the changes before the review can be accepted.
+*       @sbharthavarapu
