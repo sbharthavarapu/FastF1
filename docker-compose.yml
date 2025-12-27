@@ -1,0 +1,15 @@
+﻿version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: fastf1
+    command: >
+      uvicorn fastf1.main:app
+      --host 0.0.0.0
+      --port 8000
+      --reload
+    volumes:
+      - .:/fastf1
+    ports:
+      - "8000:8000"

@@ -11,3 +11,7 @@ app.include_router(api_router)
 @app.get("/")
 def root():
     return {"message": "FastAPI Starter Template Running!"}
+
+@app.get("/health")
+def health():
+    return {"status": "healthy"}
